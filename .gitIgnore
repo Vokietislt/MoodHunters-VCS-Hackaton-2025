@@ -1,3 +1,6 @@
 aprasiukas.txt
 emotion_log.db
 emotion_log.csv
+# Ignore PyInstaller build folders
+build/
+dist/
