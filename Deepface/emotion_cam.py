@@ -6,6 +6,9 @@ from deepface import DeepFace
 import win32gui
 import win32process
 import psutil
+import sqlite3
+DB_PATH = "emotion_log.db"
+
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 CSV_LOG_PATH = "emotion_log.csv"  # CSV file for logging results
@@ -35,10 +38,20 @@ if not cap.isOpened():
     exit(1)
 
 # Prepare CSV logging (create file with headers if not exists)
-if not os.path.exists(CSV_LOG_PATH):
-    with open(CSV_LOG_PATH, mode="w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(["timestamp", "face_id", "emotion", "confidence", "foreground_app"])
+if not os.path.exists(DB_PATH):
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE log (
+            timestamp TEXT,
+            face_id INTEGER,
+            emotion TEXT,
+            confidence REAL,
+            foreground_app TEXT
+        )
+    """)
+    conn.commit()
+    conn.close()
 
 # Frame counter for skipping
 frame_counter = 0
@@ -98,9 +111,11 @@ while True:
                 # Log to CSV with foreground app
                 timestamp = datetime.now().isoformat(sep=" ", timespec="seconds")
                 foreground_app = get_foreground_app()
-                with open(CSV_LOG_PATH, mode="a", newline="", encoding="utf-8") as csvfile:
-                    writer = csv.writer(csvfile)
-                    writer.writerow([timestamp, face_id, dominant, f"{confidence:.2f}", foreground_app])
+                conn = sqlite3.connect(DB_PATH)
+                cursor = conn.cursor()
+                cursor.execute("""INSERT INTO log (timestamp, face_id, emotion, confidence, foreground_app) VALUES (?, ?, ?, ?, ?) """, (timestamp, face_id, dominant, confidence, foreground_app))
+                conn.commit()
+                conn.close()
 
         except Exception:
             # If an error occurs (e.g., no face detected), skip this frame
