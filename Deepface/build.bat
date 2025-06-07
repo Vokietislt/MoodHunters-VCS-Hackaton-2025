@@ -12,4 +12,8 @@ pyinstaller --noconfirm --onefile --console ^
   --add-data "dbfunctions.py;." ^
   moodhunters.py
 
-pause
+@REM   --hidden-import=cv2 ^
+@REM   --hidden-import=tensorflow ^
+@REM   --hidden-import=pandas ^
+@REM   --hidden-import=numpy ^
+@REM   --hidden-import=scipy ^
