@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
-import time
 
 # Funkcija duomenų nuskaitymui
 def load_data():
@@ -18,11 +17,7 @@ def load_data():
 st.set_page_config("Emocijų stebėsena", layout="wide")
 st.title("🎭 Emocijų analizė ir stebėjimas iš SQLite")
 
-# Automatinis atnaujinimas (pvz. kas 10 s)
-refresher = st.empty()
-refresher.caption(f"Paskutinį kartą atnaujinta: {time.strftime('%H:%M:%S')}")
-time.sleep(1)
-
+# Duomenų įkėlimas
 df = load_data()
 
 # 🔴 LIVE STEBĖJIMAS
@@ -30,16 +25,20 @@ st.subheader("🔴 Live stebėjimas (naujausi įrašai)")
 latest = df.sort_values("timestamp", ascending=False).head(5)
 st.dataframe(latest, use_container_width=True)
 
-# 📆 Analizė pagal pasirinktą datą ir laiką
-st.subheader("📊 Analizė pagal pasirinktą datą ir laiką")
+# 📊 Analizė pagal pasirinktą laikotarpį
+st.subheader("📊 Analizė pagal pasirinktą laikotarpį")
 
-# Dropdown filtrai
+# Pasirenkamos datos
 pasirinkta_data = st.selectbox("Pasirinkite datą:", sorted(df["date"].unique()))
 df_data = df[df["date"] == pasirinkta_data]
 
 if not df_data.empty:
-    pasirinktas_laikas = st.selectbox("Pasirinkite laiką:", sorted(df_data["time"].unique()))
-    df_laikas = df_data[df_data["time"] == pasirinktas_laikas]
+    visi_laikai = sorted(df_data["time"].unique())
+    nuo_laikas = st.selectbox("Pasirinkite laiką nuo:", visi_laikai)
+    iki_laikas = st.selectbox("Pasirinkite laiką iki:", visi_laikai, index=len(visi_laikai)-1)
+
+    # Filtruojame pagal pasirinktą laiko intervalą
+    df_laikas = df_data[(df_data["time"] >= nuo_laikas) & (df_data["time"] <= iki_laikas)]
 
     st.markdown("### Atrinkti duomenys")
     st.dataframe(df_laikas, use_container_width=True)
