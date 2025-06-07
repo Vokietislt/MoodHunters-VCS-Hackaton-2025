@@ -4,6 +4,8 @@ Dovydai - Java ir mobilias appplikacijas. html , sql, javaspring, back-end, fron
 
 Sigita - duomenu anilitika, sql, powerBI, python. Su AI programuoja, automazivimą - python. Streamlit. midjorney.
 
+Mykolas - C#
+
 ==========================================================
 
 Streamlit - front-end - 
