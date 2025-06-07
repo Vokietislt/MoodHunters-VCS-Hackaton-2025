@@ -31,7 +31,8 @@ Prezentacija -> Gama naudoti prezentacijos kurimui.
 https://www.python.org/downloads/release/python-3110/  (check mark for Path or variables, kad paleistu su cmd ar kitu terminalu)
 pip install deepface
 pip install tf-keras
-
+pip install pygetwindow pywin32
+pip install psutil
 
 Serveris: 46.202.189.146
 Domain: srv856949.hstgr.cloud
