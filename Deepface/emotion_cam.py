@@ -10,7 +10,7 @@ import win32process
 import psutil
 import sqlite3
 DB_PATH = "emotion_log.db"
-
+import dbfunctions  
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 CSV_LOG_PATH = "emotion_log.csv"  # CSV file for logging results
@@ -57,7 +57,7 @@ if not os.path.exists(DB_PATH):
 
 # Frame counter for skipping
 frame_counter = 0
-
+last_analyze_time = 0  # Store the last time analysis was done
 # Main loop
 while True:
     ret, frame = cap.read()
@@ -68,7 +68,7 @@ while True:
     frame_resized = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
 #updated, catch time and use for analysis
 
-    last_analyze_time = 0  # Store the last time analysis was done
+    
 
     ANALYZE_INTERVAL_SECONDS = 1  # Set interval to 1 second
 
@@ -129,7 +129,7 @@ while True:
                 cursor.execute("""INSERT INTO log (timestamp, face_id, emotion, confidence, foreground_app) VALUES (?, ?, ?, ?, ?) """, (timestamp, face_id, dominant, confidence, foreground_app))
                 conn.commit()
                 conn.close()
-
+                dbfunctions.read_last_log()
         except Exception:
             # If an error occurs (e.g., no face detected), skip this frame
             pass
