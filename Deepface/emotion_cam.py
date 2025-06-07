@@ -1,4 +1,6 @@
 import cv2
+
+import time
 import csv
 import os
 from datetime import datetime
@@ -64,9 +66,18 @@ while True:
 
     # Resize for performance
     frame_resized = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
+#updated, catch time and use for analysis
+last_analyze_time = 0  # Store the last time analysis was done
+ANALYZE_INTERVAL_SECONDS = 1  # Set interval to 1 second
+
+# Inside the processing loop
+current_time = time.time()  # Get the current time in seconds
+
 
     # Only analyze every Nth frame
-    if frame_counter % ANALYZE_EVERY_N_FRAMES == 0:
+   # origianl -- if frame_counter % ANALYZE_EVERY_N_FRAMES == 1:
+   if current_time - last_analyze_time > ANALYZE_INTERVAL_SECONDS:
+       last_analyze_time = current_time
         try:
             # DeepFace returns a list if multiple faces; otherwise a dict
             results = DeepFace.analyze(frame_resized, actions=["emotion"], enforce_detection=False)

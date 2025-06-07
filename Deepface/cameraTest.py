@@ -1,3 +1,4 @@
+import time
 import cv2
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
@@ -8,6 +9,8 @@ while True:
     if not ret:
         break
     cv2.imshow("Test", frame)
+    
+   # time.sleep(1)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 cap.release()
