@@ -1,0 +1,978 @@
+timestamp,face_id,emotion,confidence
+2025-06-06 20:32:06,1,sad,79.60
+2025-06-06 20:32:07,1,sad,33.49
+2025-06-06 20:32:07,1,angry,58.04
+2025-06-06 20:32:07,1,angry,60.39
+2025-06-06 20:32:07,1,sad,60.31
+2025-06-06 20:32:07,1,sad,67.85
+2025-06-06 20:32:07,2,angry,39.39
+2025-06-06 20:32:08,1,angry,95.80
+2025-06-06 20:32:08,1,fear,99.93
+2025-06-06 20:32:08,1,angry,68.92
+2025-06-06 20:32:08,1,angry,78.46
+2025-06-06 20:32:08,1,angry,94.67
+2025-06-06 20:32:08,1,fear,91.24
+2025-06-06 20:32:09,1,angry,58.57
+2025-06-06 20:32:09,1,angry,38.41
+2025-06-06 20:32:09,1,sad,50.01
+2025-06-06 20:32:09,1,happy,38.39
+2025-06-06 20:32:09,1,sad,90.16
+2025-06-06 20:32:09,2,neutral,96.53
+2025-06-06 20:32:10,1,sad,47.37
+2025-06-06 20:32:10,2,neutral,81.49
+2025-06-06 20:32:10,1,sad,57.16
+2025-06-06 20:32:10,2,happy,99.89
+2025-06-06 20:32:10,1,sad,56.13
+2025-06-06 20:32:10,2,sad,60.31
+2025-06-06 20:32:11,1,neutral,72.86
+2025-06-06 20:32:11,2,neutral,92.48
+2025-06-06 20:32:11,1,angry,41.67
+2025-06-06 20:32:11,2,neutral,50.65
+2025-06-06 20:32:12,1,angry,63.73
+2025-06-06 20:32:12,2,fear,67.93
+2025-06-06 20:32:12,1,angry,77.88
+2025-06-06 20:32:12,2,neutral,54.69
+2025-06-06 20:32:12,1,angry,92.41
+2025-06-06 20:32:12,2,happy,72.78
+2025-06-06 20:32:12,1,angry,89.72
+2025-06-06 20:32:12,2,happy,89.10
+2025-06-06 20:32:12,1,angry,92.10
+2025-06-06 20:32:12,2,neutral,36.42
+2025-06-06 20:32:12,1,angry,87.84
+2025-06-06 20:32:12,2,neutral,83.52
+2025-06-06 20:32:13,1,angry,73.01
+2025-06-06 20:32:13,2,happy,88.41
+2025-06-06 20:32:13,1,angry,81.86
+2025-06-06 20:32:13,2,happy,91.54
+2025-06-06 20:32:13,1,happy,97.67
+2025-06-06 20:32:13,1,happy,97.79
+2025-06-06 20:32:13,1,happy,98.65
+2025-06-06 20:32:13,1,happy,98.25
+2025-06-06 20:32:14,1,happy,97.10
+2025-06-06 20:32:14,1,happy,68.53
+2025-06-06 20:32:14,1,angry,77.04
+2025-06-06 20:32:14,2,happy,99.04
+2025-06-06 20:32:14,1,angry,61.27
+2025-06-06 20:32:14,2,happy,89.63
+2025-06-06 20:32:14,1,angry,55.20
+2025-06-06 20:32:14,2,neutral,42.73
+2025-06-06 20:32:14,1,sad,46.59
+2025-06-06 20:32:14,2,happy,99.06
+2025-06-06 20:32:15,1,angry,50.28
+2025-06-06 20:32:15,2,happy,99.76
+2025-06-06 20:32:15,1,fear,48.47
+2025-06-06 20:32:15,2,happy,99.73
+2025-06-06 20:32:15,1,fear,44.71
+2025-06-06 20:32:15,2,happy,99.98
+2025-06-06 20:32:15,1,sad,53.29
+2025-06-06 20:32:15,2,happy,99.85
+2025-06-06 20:32:15,1,fear,93.81
+2025-06-06 20:32:15,2,happy,99.40
+2025-06-06 20:32:16,1,happy,99.72
+2025-06-06 20:32:16,2,fear,87.08
+2025-06-06 20:32:16,1,fear,95.67
+2025-06-06 20:32:16,2,happy,99.66
+2025-06-06 20:32:16,1,surprise,59.08
+2025-06-06 20:32:16,2,happy,99.31
+2025-06-06 20:32:16,1,happy,99.25
+2025-06-06 20:32:16,1,happy,92.11
+2025-06-06 20:32:16,1,neutral,83.03
+2025-06-06 20:32:17,1,neutral,89.30
+2025-06-06 20:32:17,1,neutral,83.55
+2025-06-06 20:32:17,1,neutral,84.74
+2025-06-06 20:32:17,1,neutral,67.28
+2025-06-06 20:32:17,1,neutral,73.48
+2025-06-06 20:32:17,1,neutral,80.57
+2025-06-06 20:32:18,1,neutral,80.77
+2025-06-06 20:32:18,1,neutral,87.91
+2025-06-06 20:32:18,1,neutral,93.95
+2025-06-06 20:32:18,1,neutral,63.53
+2025-06-06 20:32:18,1,happy,94.48
+2025-06-06 20:32:18,1,happy,98.32
+2025-06-06 20:32:19,1,happy,97.44
+2025-06-06 20:32:19,1,happy,99.44
+2025-06-06 20:32:19,1,happy,99.94
+2025-06-06 20:32:19,1,happy,99.86
+2025-06-06 20:32:19,1,neutral,66.64
+2025-06-06 20:32:19,2,happy,99.93
+2025-06-06 20:32:19,1,fear,85.72
+2025-06-06 20:32:19,2,happy,99.96
+2025-06-06 20:32:20,1,fear,69.74
+2025-06-06 20:32:20,2,happy,99.99
+2025-06-06 20:32:20,1,surprise,41.72
+2025-06-06 20:32:20,2,happy,99.56
+2025-06-06 20:32:20,1,happy,99.19
+2025-06-06 20:32:20,1,happy,99.92
+2025-06-06 20:32:20,1,happy,99.86
+2025-06-06 20:32:21,1,neutral,81.21
+2025-06-06 20:32:21,1,happy,82.03
+2025-06-06 20:32:21,1,happy,99.37
+2025-06-06 20:32:21,1,happy,89.12
+2025-06-06 20:32:21,1,happy,99.50
+2025-06-06 20:32:22,1,neutral,47.33
+2025-06-06 20:32:22,1,happy,99.95
+2025-06-06 20:32:22,1,happy,99.76
+2025-06-06 20:32:22,1,happy,99.43
+2025-06-06 20:32:22,1,happy,99.76
+2025-06-06 20:32:23,1,happy,99.23
+2025-06-06 20:32:23,1,happy,99.22
+2025-06-06 20:32:23,1,happy,99.77
+2025-06-06 20:32:23,1,happy,98.83
+2025-06-06 20:32:23,1,happy,99.46
+2025-06-06 20:32:23,1,happy,99.93
+2025-06-06 20:32:24,1,happy,99.99
+2025-06-06 20:32:24,1,happy,99.94
+2025-06-06 20:32:24,1,happy,99.50
+2025-06-06 20:32:24,1,happy,98.79
+2025-06-06 20:32:24,1,happy,99.46
+2025-06-06 20:32:25,1,happy,99.15
+2025-06-06 20:32:25,1,happy,99.20
+2025-06-06 20:32:25,1,happy,99.65
+2025-06-06 20:32:25,1,happy,99.30
+2025-06-06 20:32:25,1,happy,98.71
+2025-06-06 20:32:26,1,happy,99.03
+2025-06-06 20:32:26,1,happy,98.29
+2025-06-06 20:32:26,1,happy,99.38
+2025-06-06 20:32:26,1,happy,99.84
+2025-06-06 20:32:26,1,happy,99.56
+2025-06-06 20:32:27,1,happy,99.93
+2025-06-06 20:32:27,1,happy,99.98
+2025-06-06 20:32:27,1,happy,99.92
+2025-06-06 20:32:27,1,happy,99.83
+2025-06-06 20:32:27,1,happy,94.00
+2025-06-06 20:32:28,1,happy,99.93
+2025-06-06 20:32:28,1,happy,99.35
+2025-06-06 20:32:28,1,happy,99.59
+2025-06-06 20:32:28,1,happy,99.94
+2025-06-06 20:32:28,1,happy,99.97
+2025-06-06 20:32:29,1,happy,99.96
+2025-06-06 20:32:29,1,happy,99.90
+2025-06-06 20:32:29,1,happy,99.71
+2025-06-06 20:32:29,1,happy,99.95
+2025-06-06 20:32:29,1,happy,99.67
+2025-06-06 20:32:30,1,happy,99.98
+2025-06-06 20:32:30,1,happy,97.91
+2025-06-06 20:32:30,1,happy,93.35
+2025-06-06 20:32:30,1,happy,91.73
+2025-06-06 20:32:30,1,neutral,60.02
+2025-06-06 20:32:31,1,happy,79.80
+2025-06-06 20:32:31,1,happy,86.48
+2025-06-06 20:32:31,1,neutral,86.59
+2025-06-06 20:32:31,1,neutral,76.82
+2025-06-06 20:32:31,1,neutral,82.21
+2025-06-06 20:32:32,1,neutral,88.09
+2025-06-06 20:32:32,1,neutral,92.88
+2025-06-06 20:32:32,1,neutral,68.20
+2025-06-06 20:32:32,1,neutral,56.89
+2025-06-06 20:32:32,1,neutral,48.27
+2025-06-06 20:32:32,1,neutral,75.79
+2025-06-06 20:32:33,1,neutral,86.76
+2025-06-06 20:32:33,1,fear,56.44
+2025-06-06 20:32:33,1,sad,38.73
+2025-06-06 20:32:33,1,angry,35.68
+2025-06-06 20:32:33,1,angry,68.47
+2025-06-06 20:32:33,1,angry,63.86
+2025-06-06 20:32:33,1,angry,64.85
+2025-06-06 20:32:34,1,angry,51.53
+2025-06-06 20:32:34,1,angry,55.35
+2025-06-06 20:32:34,1,angry,78.10
+2025-06-06 20:32:34,1,angry,66.88
+2025-06-06 20:32:34,1,angry,90.79
+2025-06-06 20:32:34,1,angry,68.95
+2025-06-06 20:32:34,1,angry,92.24
+2025-06-06 20:32:35,1,angry,90.56
+2025-06-06 20:32:35,1,angry,99.78
+2025-06-06 20:32:35,1,angry,97.16
+2025-06-06 20:32:35,1,angry,87.58
+2025-06-06 20:32:35,1,angry,87.09
+2025-06-06 20:32:35,1,angry,91.56
+2025-06-06 20:32:35,1,angry,76.38
+2025-06-06 20:32:36,1,angry,71.08
+2025-06-06 20:32:36,1,neutral,68.80
+2025-06-06 20:32:36,1,sad,39.60
+2025-06-06 20:32:36,1,neutral,94.35
+2025-06-06 20:32:36,1,neutral,94.83
+2025-06-06 20:32:37,1,neutral,72.48
+2025-06-06 20:32:37,1,neutral,79.05
+2025-06-06 20:32:37,1,neutral,93.49
+2025-06-06 20:32:37,1,neutral,97.89
+2025-06-06 20:32:37,1,neutral,98.90
+2025-06-06 20:32:37,1,neutral,95.42
+2025-06-06 20:32:38,1,neutral,99.20
+2025-06-06 20:32:38,1,neutral,98.49
+2025-06-06 20:32:38,1,neutral,99.68
+2025-06-06 20:32:38,1,neutral,99.50
+2025-06-06 20:32:38,1,neutral,97.13
+2025-06-06 20:32:39,1,neutral,99.50
+2025-06-06 20:32:39,1,neutral,98.47
+2025-06-06 20:32:39,1,neutral,99.29
+2025-06-06 20:32:39,1,neutral,98.99
+2025-06-06 20:32:39,1,happy,80.79
+2025-06-06 20:32:39,2,neutral,98.97
+2025-06-06 20:32:40,1,happy,90.97
+2025-06-06 20:32:40,2,neutral,98.93
+2025-06-06 20:32:40,1,happy,81.28
+2025-06-06 20:32:40,2,neutral,98.27
+2025-06-06 20:32:40,1,happy,98.08
+2025-06-06 20:32:40,2,neutral,98.55
+2025-06-06 20:32:40,1,neutral,98.52
+2025-06-06 20:32:40,2,happy,99.85
+2025-06-06 20:32:40,1,happy,97.13
+2025-06-06 20:32:40,2,neutral,99.37
+2025-06-06 20:32:41,1,neutral,99.62
+2025-06-06 20:32:41,2,happy,88.71
+2025-06-06 20:32:41,1,neutral,99.82
+2025-06-06 20:32:41,2,happy,88.51
+2025-06-06 20:32:41,1,neutral,98.22
+2025-06-06 20:32:41,2,angry,42.02
+2025-06-06 20:32:42,1,neutral,96.82
+2025-06-06 20:32:42,2,neutral,49.19
+2025-06-06 20:32:42,1,neutral,97.87
+2025-06-06 20:32:42,2,neutral,49.01
+2025-06-06 20:32:42,1,neutral,99.41
+2025-06-06 20:32:42,2,neutral,53.58
+2025-06-06 20:32:42,1,neutral,99.74
+2025-06-06 20:32:42,2,sad,44.36
+2025-06-06 20:32:43,1,neutral,99.26
+2025-06-06 20:32:43,2,disgust,99.09
+2025-06-06 20:32:43,1,neutral,99.60
+2025-06-06 20:32:43,2,angry,80.65
+2025-06-06 20:32:43,1,neutral,99.91
+2025-06-06 20:32:43,2,angry,94.56
+2025-06-06 20:32:44,1,neutral,52.44
+2025-06-06 20:32:44,2,angry,88.26
+2025-06-06 20:32:44,1,angry,84.89
+2025-06-06 20:32:44,1,angry,83.60
+2025-06-06 20:32:45,1,angry,86.64
+2025-06-06 20:32:45,1,angry,81.98
+2025-06-06 20:32:45,1,angry,84.03
+2025-06-06 20:32:45,1,happy,99.03
+2025-06-06 20:32:45,1,happy,98.76
+2025-06-06 20:32:45,1,happy,100.00
+2025-06-06 20:32:46,1,happy,99.97
+2025-06-06 20:32:46,1,happy,49.44
+2025-06-06 20:32:46,1,happy,98.03
+2025-06-06 20:32:46,1,happy,99.97
+2025-06-06 20:32:46,1,happy,100.00
+2025-06-06 20:32:46,1,happy,100.00
+2025-06-06 20:32:46,1,happy,100.00
+2025-06-06 20:32:47,1,happy,100.00
+2025-06-06 20:32:47,1,happy,100.00
+2025-06-06 20:32:47,1,happy,100.00
+2025-06-06 20:32:47,1,happy,100.00
+2025-06-06 20:32:47,1,happy,100.00
+2025-06-06 20:32:47,1,happy,100.00
+2025-06-06 20:32:47,1,happy,99.83
+2025-06-06 20:32:48,1,happy,99.11
+2025-06-06 20:32:48,1,happy,98.73
+2025-06-06 20:32:48,1,happy,99.82
+2025-06-06 20:32:48,1,happy,99.57
+2025-06-06 20:32:48,1,happy,99.26
+2025-06-06 20:32:48,1,happy,73.33
+2025-06-06 20:32:48,1,happy,98.90
+2025-06-06 20:32:48,1,happy,50.87
+2025-06-06 20:32:49,1,happy,70.88
+2025-06-06 20:32:49,1,happy,99.66
+2025-06-06 20:32:49,1,happy,65.38
+2025-06-06 20:32:49,1,happy,98.89
+2025-06-06 20:32:49,1,happy,99.41
+2025-06-06 20:32:49,1,angry,94.86
+2025-06-06 20:32:49,2,happy,99.50
+2025-06-06 20:32:50,1,angry,56.83
+2025-06-06 20:32:50,2,happy,99.81
+2025-06-06 20:32:50,1,sad,38.66
+2025-06-06 20:32:50,2,happy,99.74
+2025-06-06 20:32:50,1,angry,51.82
+2025-06-06 20:32:50,2,fear,71.69
+2025-06-06 20:32:50,1,angry,47.81
+2025-06-06 20:32:50,2,sad,60.48
+2025-06-06 20:32:51,1,neutral,42.08
+2025-06-06 20:32:51,2,happy,73.56
+2025-06-06 20:32:51,1,neutral,45.34
+2025-06-06 20:32:51,1,sad,39.13
+2025-06-06 20:32:51,1,angry,33.21
+2025-06-06 20:32:52,1,happy,96.40
+2025-06-06 20:32:52,1,happy,98.64
+2025-06-06 20:32:52,1,happy,97.12
+2025-06-06 20:32:52,1,happy,65.95
+2025-06-06 20:32:52,1,neutral,81.77
+2025-06-06 20:32:53,1,happy,99.38
+2025-06-06 20:32:53,2,neutral,48.92
+2025-06-06 20:32:53,1,angry,86.06
+2025-06-06 20:32:53,2,neutral,85.51
+2025-06-06 20:32:53,1,angry,88.95
+2025-06-06 20:32:53,2,neutral,77.12
+2025-06-06 20:32:53,1,angry,62.00
+2025-06-06 20:32:53,2,happy,96.34
+2025-06-06 20:32:54,1,happy,99.97
+2025-06-06 20:32:54,2,happy,99.83
+2025-06-06 20:32:54,1,happy,99.87
+2025-06-06 20:32:54,2,happy,99.75
+2025-06-06 20:32:54,1,happy,98.61
+2025-06-06 20:32:54,2,happy,99.92
+2025-06-06 20:32:54,1,happy,99.68
+2025-06-06 20:32:54,2,happy,99.56
+2025-06-06 20:32:55,1,happy,99.11
+2025-06-06 20:32:55,2,happy,99.96
+2025-06-06 20:32:55,1,happy,98.90
+2025-06-06 20:32:55,2,happy,99.78
+2025-06-06 20:32:55,1,happy,98.97
+2025-06-06 20:32:55,2,happy,99.96
+2025-06-06 20:32:56,1,happy,99.69
+2025-06-06 20:32:56,2,happy,99.99
+2025-06-06 20:32:56,1,happy,98.85
+2025-06-06 20:32:56,2,happy,99.94
+2025-06-06 20:32:56,1,happy,98.73
+2025-06-06 20:32:56,2,happy,99.99
+2025-06-06 20:32:56,1,happy,59.25
+2025-06-06 20:32:56,2,happy,97.71
+2025-06-06 20:32:56,1,happy,97.99
+2025-06-06 20:32:56,2,happy,95.63
+2025-06-06 20:32:57,1,neutral,51.61
+2025-06-06 20:32:57,2,happy,96.74
+2025-06-06 20:32:57,1,happy,78.49
+2025-06-06 20:32:57,2,happy,92.77
+2025-06-06 20:32:57,1,happy,96.39
+2025-06-06 20:32:57,2,happy,96.17
+2025-06-06 20:32:57,1,fear,61.27
+2025-06-06 20:32:58,1,happy,82.82
+2025-06-06 20:32:58,1,neutral,65.16
+2025-06-06 20:32:58,1,happy,88.48
+2025-06-06 20:33:00,1,happy,83.95
+2025-06-06 20:33:00,1,neutral,70.48
+2025-06-06 20:33:00,1,sad,48.66
+2025-06-06 20:33:00,1,sad,63.69
+2025-06-06 20:33:01,1,sad,57.95
+2025-06-06 20:33:01,1,neutral,95.25
+2025-06-06 20:33:01,1,happy,98.64
+2025-06-06 20:33:01,1,happy,96.19
+2025-06-06 20:33:01,1,happy,91.53
+2025-06-06 20:33:02,1,happy,79.60
+2025-06-06 20:33:02,1,neutral,69.31
+2025-06-06 20:33:02,1,neutral,91.56
+2025-06-06 20:33:02,1,neutral,85.67
+2025-06-06 20:33:03,1,neutral,85.29
+2025-06-06 20:33:03,1,neutral,92.26
+2025-06-06 20:33:03,1,neutral,90.79
+2025-06-06 20:33:03,1,neutral,96.68
+2025-06-06 20:33:03,1,neutral,90.79
+2025-06-06 20:33:04,1,neutral,85.16
+2025-06-06 20:33:04,1,neutral,82.11
+2025-06-06 20:33:04,1,neutral,85.09
+2025-06-06 20:33:04,1,neutral,82.13
+2025-06-06 20:33:04,1,neutral,83.06
+2025-06-06 20:33:05,1,neutral,89.78
+2025-06-06 20:33:05,1,neutral,76.83
+2025-06-06 20:33:05,1,neutral,95.20
+2025-06-06 20:33:05,1,neutral,84.56
+2025-06-06 20:33:05,1,neutral,60.91
+2025-06-06 20:33:05,1,neutral,79.99
+2025-06-06 20:33:06,1,neutral,79.35
+2025-06-06 20:33:06,1,neutral,75.72
+2025-06-06 20:33:06,1,neutral,96.18
+2025-06-06 20:33:06,1,neutral,75.41
+2025-06-06 20:33:06,1,neutral,85.13
+2025-06-06 20:33:07,1,neutral,81.49
+2025-06-06 20:33:07,1,happy,86.80
+2025-06-06 20:33:07,1,happy,91.82
+2025-06-06 20:33:07,1,happy,95.74
+2025-06-06 20:33:07,1,happy,91.38
+2025-06-06 20:33:08,1,neutral,92.51
+2025-06-06 20:33:08,1,fear,82.34
+2025-06-06 20:33:08,1,sad,68.36
+2025-06-06 20:33:08,1,sad,85.89
+2025-06-06 20:33:08,1,sad,95.46
+2025-06-06 20:33:08,1,sad,98.98
+2025-06-06 20:33:08,1,fear,94.17
+2025-06-06 20:33:09,1,neutral,61.55
+2025-06-06 20:33:09,1,sad,57.65
+2025-06-06 20:33:09,1,fear,59.28
+2025-06-06 20:33:09,1,sad,47.45
+2025-06-06 20:33:09,1,neutral,42.10
+2025-06-06 20:33:09,1,neutral,90.24
+2025-06-06 20:33:10,1,neutral,92.15
+2025-06-06 20:33:10,1,neutral,90.93
+2025-06-06 20:33:10,1,neutral,94.14
+2025-06-06 20:33:10,1,neutral,95.18
+2025-06-06 20:33:10,1,neutral,88.70
+2025-06-06 20:33:11,1,neutral,77.94
+2025-06-06 20:33:11,1,neutral,85.39
+2025-06-06 20:33:11,1,neutral,74.78
+2025-06-06 20:33:11,1,neutral,68.25
+2025-06-06 20:33:11,1,neutral,83.93
+2025-06-06 20:33:11,1,neutral,86.58
+2025-06-06 20:33:12,1,neutral,64.69
+2025-06-06 20:33:12,1,neutral,72.08
+2025-06-06 20:33:12,1,neutral,88.86
+2025-06-06 20:33:12,1,neutral,84.01
+2025-06-06 20:33:12,1,neutral,76.95
+2025-06-06 20:33:12,1,neutral,76.92
+2025-06-06 20:33:13,1,neutral,67.55
+2025-06-06 20:33:13,1,neutral,83.38
+2025-06-06 20:33:13,1,neutral,93.46
+2025-06-06 20:33:13,1,neutral,83.04
+2025-06-06 20:33:13,1,fear,49.45
+2025-06-06 20:58:07,1,fear,99.97,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:58:07,1,angry,76.06,python.exe - DeepFace Emotion
+2025-06-06 20:58:07,1,angry,92.45,python.exe - DeepFace Emotion
+2025-06-06 20:58:07,1,angry,76.72,python.exe - DeepFace Emotion
+2025-06-06 20:58:07,1,angry,80.83,python.exe - DeepFace Emotion
+2025-06-06 20:58:07,1,angry,83.27,python.exe - DeepFace Emotion
+2025-06-06 20:58:07,1,angry,63.30,python.exe - DeepFace Emotion
+2025-06-06 20:58:07,1,angry,58.75,python.exe - DeepFace Emotion
+2025-06-06 20:58:08,1,angry,72.85,python.exe - DeepFace Emotion
+2025-06-06 20:58:08,1,angry,67.68,python.exe - DeepFace Emotion
+2025-06-06 20:58:08,1,angry,61.05,python.exe - DeepFace Emotion
+2025-06-06 20:58:08,1,angry,41.86,python.exe - DeepFace Emotion
+2025-06-06 20:58:08,1,angry,41.36,python.exe - DeepFace Emotion
+2025-06-06 20:58:08,1,angry,51.73,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,angry,50.93,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,angry,57.97,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,angry,55.75,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,angry,45.86,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,neutral,36.88,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,sad,63.40,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,angry,50.07,python.exe - DeepFace Emotion
+2025-06-06 20:58:09,1,sad,47.51,python.exe - DeepFace Emotion
+2025-06-06 20:58:10,1,happy,56.64,python.exe - DeepFace Emotion
+2025-06-06 20:58:10,1,happy,99.30,python.exe - DeepFace Emotion
+2025-06-06 20:58:10,1,happy,35.46,python.exe - DeepFace Emotion
+2025-06-06 20:58:10,1,neutral,53.88,python.exe - DeepFace Emotion
+2025-06-06 20:58:10,1,neutral,40.85,python.exe - DeepFace Emotion
+2025-06-06 20:58:10,1,fear,34.16,python.exe - DeepFace Emotion
+2025-06-06 20:58:11,1,neutral,78.98,python.exe - DeepFace Emotion
+2025-06-06 20:58:11,1,neutral,68.14,python.exe - DeepFace Emotion
+2025-06-06 20:58:11,1,happy,99.92,python.exe - DeepFace Emotion
+2025-06-06 20:58:11,1,happy,100.00,python.exe - DeepFace Emotion
+2025-06-06 20:58:11,1,happy,100.00,python.exe - DeepFace Emotion
+2025-06-06 20:58:11,1,happy,100.00,python.exe - DeepFace Emotion
+2025-06-06 20:58:12,1,happy,100.00,python.exe - DeepFace Emotion
+2025-06-06 20:58:12,1,happy,99.98,python.exe - DeepFace Emotion
+2025-06-06 20:58:12,1,sad,48.47,python.exe - DeepFace Emotion
+2025-06-06 20:58:12,1,angry,54.74,python.exe - DeepFace Emotion
+2025-06-06 20:58:12,1,angry,55.80,python.exe - DeepFace Emotion
+2025-06-06 20:58:12,1,sad,56.05,python.exe - DeepFace Emotion
+2025-06-06 20:58:13,1,angry,55.13,python.exe - DeepFace Emotion
+2025-06-06 20:58:13,1,angry,44.34,python.exe - DeepFace Emotion
+2025-06-06 20:58:13,1,neutral,37.55,python.exe - DeepFace Emotion
+2025-06-06 20:58:13,1,angry,42.59,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:13,1,angry,51.02,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:13,1,sad,37.30,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:14,1,angry,55.89,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:14,1,sad,41.75,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:14,1,sad,51.38,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:14,1,sad,57.52,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:14,1,sad,42.75,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:14,1,sad,52.49,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:14,1,sad,41.67,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:15,1,neutral,45.51,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:15,1,angry,38.05,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:15,1,sad,79.67,brave.exe - Foreground app emotion logging - Brave
+2025-06-06 20:58:15,1,sad,47.26,explorer.exe - Task Switching
+2025-06-06 20:58:15,1,sad,47.55,explorer.exe - Task Switching
+2025-06-06 20:58:15,1,angry,43.96,explorer.exe - Task Switching
+2025-06-06 20:58:15,1,neutral,38.64,explorer.exe - Task Switching
+2025-06-06 20:58:16,1,angry,43.32,explorer.exe - Task Switching
+2025-06-06 20:58:16,1,sad,36.07,explorer.exe - Task Switching
+2025-06-06 20:58:16,1,sad,40.22,explorer.exe - Task Switching
+2025-06-06 20:58:16,1,angry,35.47,explorer.exe - Task Switching
+2025-06-06 20:58:16,1,sad,40.80,explorer.exe - Task Switching
+2025-06-06 20:58:16,1,angry,35.60,explorer.exe - Task Switching
+2025-06-06 20:58:17,1,angry,36.61,explorer.exe - Task Switching
+2025-06-06 20:58:17,1,sad,35.37,explorer.exe - Task Switching
+2025-06-06 20:58:17,1,angry,39.69,explorer.exe - Task Switching
+2025-06-06 20:58:17,1,neutral,34.63,explorer.exe - Task Switching
+2025-06-06 20:58:17,1,neutral,36.31,explorer.exe - Task Switching
+2025-06-06 20:58:17,1,angry,33.35,explorer.exe - Task Switching
+2025-06-06 20:58:17,1,angry,48.61,explorer.exe - Task Switching
+2025-06-06 20:58:18,1,sad,45.46,explorer.exe - Task Switching
+2025-06-06 20:58:18,1,angry,41.71,explorer.exe - Task Switching
+2025-06-06 20:58:18,1,neutral,43.69,explorer.exe - Task Switching
+2025-06-06 20:58:18,1,neutral,40.57,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:18,1,angry,40.73,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:18,1,angry,40.42,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:19,1,sad,35.69,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:19,1,angry,45.84,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:19,1,neutral,49.62,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:19,1,sad,44.16,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:19,1,neutral,46.73,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:19,1,neutral,43.55,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:20,1,sad,45.87,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:20,1,sad,39.29,Code.exe - emotion_cam.py - hacaton - Visual Studio Code
+2025-06-06 20:58:20,1,sad,37.62,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:20,1,sad,38.99,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:20,1,angry,39.10,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:20,1,neutral,47.20,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:21,1,sad,37.71,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:21,1,sad,46.48,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:21,1,sad,48.24,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:21,1,sad,40.59,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:21,1,sad,54.11,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:21,1,neutral,38.00,Code.exe - cameraTest.py - hacaton - Visual Studio Code
+2025-06-06 20:58:22,1,sad,41.58,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:22,1,sad,50.95,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:22,1,sad,77.23,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:22,1,sad,76.36,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:22,1,sad,73.13,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:23,1,sad,45.40,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:23,1,sad,78.14,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:23,1,sad,55.31,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:23,1,sad,48.05,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:23,1,sad,57.48,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:23,1,sad,47.19,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:24,1,sad,35.26,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:24,1,sad,45.81,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:24,1,sad,37.27,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:24,1,angry,54.04,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:24,1,angry,43.65,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:24,1,sad,54.75,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:25,1,sad,60.54,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:25,1,sad,60.50,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:25,1,sad,52.13,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:25,1,angry,43.32,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:25,1,sad,37.18,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:25,1,angry,45.43,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:25,1,angry,49.50,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:26,1,angry,51.46,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:26,1,sad,54.94,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:26,1,sad,43.25,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:26,1,sad,34.97,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:26,1,sad,42.12,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:26,1,angry,37.92,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:26,1,neutral,50.19,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:27,1,angry,45.08,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:27,1,angry,43.60,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:27,1,neutral,46.32,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:27,1,happy,57.97,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:27,1,happy,66.54,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:28,1,neutral,30.95,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:28,1,neutral,33.48,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:28,1,happy,39.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:28,1,happy,85.88,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:28,1,happy,94.32,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:28,1,happy,91.90,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:29,1,happy,94.93,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:29,1,angry,42.44,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:29,1,happy,56.33,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:29,1,happy,52.09,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:29,1,happy,77.60,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:29,1,happy,71.14,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:29,1,happy,71.03,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,1,happy,74.04,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,1,neutral,66.33,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,2,happy,90.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,1,neutral,92.33,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,2,happy,83.01,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,1,neutral,69.47,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,2,happy,88.19,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,1,neutral,61.89,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:30,2,happy,83.22,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,1,neutral,84.61,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,2,happy,87.77,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,1,neutral,79.35,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,2,happy,95.74,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,1,neutral,65.26,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,2,happy,99.96,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,1,sad,47.36,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,2,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,1,happy,85.24,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,2,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,1,happy,89.08,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:31,2,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,happy,99.73,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,2,happy,69.27,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,happy,72.26,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,happy,90.40,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,happy,87.83,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,happy,95.35,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,2,angry,80.63,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,happy,91.68,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,sad,42.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:32,1,sad,46.25,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,1,angry,50.97,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,2,happy,93.10,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,1,sad,59.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,2,happy,97.85,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,1,sad,70.37,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,2,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,1,happy,95.96,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,2,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,1,disgust,54.43,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:33,2,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:34,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:34,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:34,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:34,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:34,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:34,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:35,1,happy,97.11,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:35,2,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:35,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:35,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:35,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:35,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:36,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:36,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:36,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:36,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:36,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:37,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:37,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:37,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:37,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:37,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:38,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:38,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:38,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:38,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:38,1,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:39,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:39,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:39,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:39,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:39,1,happy,99.90,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:40,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:40,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:40,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:40,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:40,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:41,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:41,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:41,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:41,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:41,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:42,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:42,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:42,1,happy,99.97,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:42,1,happy,95.83,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:42,1,happy,97.42,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:42,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:42,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:43,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:43,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:43,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:43,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:43,1,happy,99.50,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:43,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:43,1,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:44,1,happy,99.95,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:44,1,happy,99.93,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:44,1,happy,99.87,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:44,1,happy,99.62,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:44,1,happy,82.77,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:44,1,happy,79.49,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:45,1,happy,99.25,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:45,1,happy,85.58,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:45,1,happy,99.34,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:45,1,happy,99.56,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:45,1,happy,99.86,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:45,1,happy,99.94,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:46,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:46,1,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:46,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:46,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:46,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:46,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:47,1,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:47,1,happy,99.87,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:47,1,happy,99.69,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:47,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:47,1,happy,99.97,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:47,1,happy,99.88,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:48,1,happy,99.81,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:48,1,happy,98.46,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:48,1,happy,98.87,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:48,1,happy,57.97,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:48,1,happy,98.69,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:48,1,happy,99.07,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:48,1,happy,54.39,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:49,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:49,1,sad,98.12,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:49,1,sad,66.04,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:49,1,sad,82.54,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:49,1,sad,98.52,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:49,1,sad,99.76,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:49,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:50,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:51,1,sad,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:51,1,sad,99.97,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:51,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:51,1,sad,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:51,1,sad,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:51,1,happy,96.32,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:51,1,happy,99.73,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:52,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:52,1,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:52,1,happy,99.99,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:52,1,happy,99.96,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:52,1,happy,100.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:52,1,happy,99.34,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:53,1,happy,83.32,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:53,1,happy,94.08,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:53,1,happy,81.65,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:53,1,happy,99.65,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:53,1,happy,99.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:53,1,happy,96.95,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:54,1,happy,97.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:54,1,happy,56.69,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:54,1,happy,54.06,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:54,1,happy,96.24,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:54,1,happy,86.63,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:55,1,happy,99.32,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:55,1,happy,73.00,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:55,1,angry,72.63,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:55,1,neutral,47.69,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:55,1,sad,66.80,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:56,1,sad,59.64,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:56,1,angry,42.50,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:56,1,neutral,39.78,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:56,1,neutral,42.80,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:56,1,neutral,51.51,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:56,1,neutral,40.21,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:57,1,sad,50.69,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:57,1,neutral,68.18,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:57,1,sad,43.91,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:58:57,1,neutral,45.82,Unknown
+2025-06-06 20:58:58,1,angry,38.53,python.exe - DeepFace Emotion
+2025-06-06 20:58:59,1,neutral,35.85,python.exe - DeepFace Emotion
+2025-06-06 20:58:59,1,neutral,42.51,python.exe - DeepFace Emotion
+2025-06-06 20:58:59,1,angry,33.87,python.exe - DeepFace Emotion
+2025-06-06 20:58:59,1,neutral,60.77,python.exe - DeepFace Emotion
+2025-06-06 20:58:59,1,neutral,41.94,python.exe - DeepFace Emotion
+2025-06-06 20:59:00,1,neutral,38.84,python.exe - DeepFace Emotion
+2025-06-06 20:59:00,1,neutral,50.34,python.exe - DeepFace Emotion
+2025-06-06 20:59:00,1,neutral,38.61,python.exe - DeepFace Emotion
+2025-06-06 20:59:00,1,neutral,35.26,python.exe - DeepFace Emotion
+2025-06-06 20:59:00,1,neutral,52.92,python.exe - DeepFace Emotion
+2025-06-06 20:59:01,1,neutral,57.53,python.exe - DeepFace Emotion
+2025-06-06 20:59:01,1,neutral,58.54,python.exe - DeepFace Emotion
+2025-06-06 20:59:01,1,neutral,44.61,python.exe - DeepFace Emotion
+2025-06-06 20:59:01,1,neutral,42.86,python.exe - DeepFace Emotion
+2025-06-06 20:59:01,1,angry,36.27,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,1,neutral,45.38,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,1,happy,93.43,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,2,neutral,54.61,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,1,neutral,61.00,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,1,sad,61.07,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,2,neutral,66.28,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,1,fear,43.03,python.exe - DeepFace Emotion
+2025-06-06 20:59:02,2,angry,42.33,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,1,happy,96.84,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,2,neutral,60.92,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,1,happy,60.42,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,2,neutral,51.15,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,1,happy,63.16,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,2,happy,31.95,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,1,happy,66.98,python.exe - DeepFace Emotion
+2025-06-06 20:59:03,2,sad,37.66,python.exe - DeepFace Emotion
+2025-06-06 20:59:04,1,sad,51.61,python.exe - DeepFace Emotion
+2025-06-06 20:59:04,2,neutral,67.54,python.exe - DeepFace Emotion
+2025-06-06 20:59:04,1,neutral,50.86,python.exe - DeepFace Emotion
+2025-06-06 20:59:04,2,happy,92.55,python.exe - DeepFace Emotion
+2025-06-06 20:59:04,1,happy,75.24,python.exe - DeepFace Emotion
+2025-06-06 20:59:04,2,happy,89.64,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,1,happy,39.06,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,2,neutral,55.18,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,1,fear,53.86,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,2,neutral,50.58,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,1,angry,41.05,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,2,sad,41.16,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,1,fear,65.12,python.exe - DeepFace Emotion
+2025-06-06 20:59:05,2,sad,57.99,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,1,angry,45.02,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,2,angry,33.79,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,1,sad,82.99,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,2,neutral,44.44,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,1,sad,43.81,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,2,neutral,40.45,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,1,fear,68.91,python.exe - DeepFace Emotion
+2025-06-06 20:59:06,2,neutral,47.21,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,1,sad,84.34,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,2,angry,47.08,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,1,fear,49.46,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,2,angry,50.05,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,1,neutral,46.96,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,2,sad,43.66,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,1,sad,48.56,python.exe - DeepFace Emotion
+2025-06-06 20:59:07,2,sad,55.32,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,1,neutral,42.11,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,2,sad,76.26,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,1,sad,37.37,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,2,sad,90.27,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,1,neutral,34.93,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,2,sad,77.60,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,1,neutral,33.16,python.exe - DeepFace Emotion
+2025-06-06 20:59:08,2,sad,57.90,python.exe - DeepFace Emotion
+2025-06-06 20:59:09,1,neutral,41.69,python.exe - DeepFace Emotion
+2025-06-06 20:59:09,2,sad,61.09,python.exe - DeepFace Emotion
+2025-06-06 20:59:09,1,sad,41.00,python.exe - DeepFace Emotion
+2025-06-06 20:59:09,2,sad,55.12,python.exe - DeepFace Emotion
+2025-06-06 20:59:09,1,sad,85.59,python.exe - DeepFace Emotion
+2025-06-06 20:59:09,2,sad,35.76,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,1,sad,57.96,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,2,sad,71.98,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,1,neutral,51.50,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,2,sad,79.84,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,1,neutral,37.38,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,2,sad,49.91,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,1,neutral,34.66,python.exe - DeepFace Emotion
+2025-06-06 20:59:10,2,sad,51.90,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,1,neutral,36.56,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,2,angry,32.83,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,1,sad,48.41,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,2,sad,63.25,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,1,sad,48.58,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,2,fear,36.29,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,1,sad,43.46,python.exe - DeepFace Emotion
+2025-06-06 20:59:11,2,sad,69.58,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,1,sad,44.83,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,2,sad,37.39,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,1,sad,47.94,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,2,neutral,31.31,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,1,neutral,41.71,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,2,sad,73.87,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,1,sad,62.91,python.exe - DeepFace Emotion
+2025-06-06 20:59:12,2,angry,34.32,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,1,sad,57.08,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,2,sad,85.90,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,1,neutral,40.25,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,2,sad,85.35,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,1,sad,86.39,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,2,angry,74.58,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,1,sad,61.09,python.exe - DeepFace Emotion
+2025-06-06 20:59:13,2,sad,75.99,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,1,sad,72.32,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,2,sad,38.86,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,1,sad,80.14,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,2,sad,66.54,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,1,fear,48.56,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,2,fear,28.85,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,1,sad,29.86,python.exe - DeepFace Emotion
+2025-06-06 20:59:14,2,happy,90.15,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,1,happy,95.77,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,2,sad,46.55,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,1,happy,97.00,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,2,happy,92.68,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,1,angry,34.29,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,2,sad,63.82,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,1,sad,74.20,python.exe - DeepFace Emotion
+2025-06-06 20:59:15,2,angry,47.75,python.exe - DeepFace Emotion
+2025-06-06 20:59:16,1,neutral,48.16,python.exe - DeepFace Emotion
+2025-06-06 20:59:16,2,sad,46.30,python.exe - DeepFace Emotion
+2025-06-06 20:59:16,1,sad,44.75,python.exe - DeepFace Emotion
+2025-06-06 20:59:16,2,neutral,54.41,python.exe - DeepFace Emotion
+2025-06-06 20:59:16,1,sad,60.37,python.exe - DeepFace Emotion
+2025-06-06 20:59:16,2,neutral,88.82,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,1,fear,57.57,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,2,fear,48.87,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,1,surprise,45.20,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,2,fear,43.21,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,1,fear,84.82,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,2,fear,65.25,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,1,sad,55.93,python.exe - DeepFace Emotion
+2025-06-06 20:59:17,2,surprise,99.99,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,1,surprise,98.88,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,2,angry,39.36,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,1,surprise,98.61,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,2,sad,44.91,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,1,surprise,87.22,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,2,happy,37.39,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,1,surprise,97.54,python.exe - DeepFace Emotion
+2025-06-06 20:59:18,2,happy,98.17,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,1,surprise,97.56,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,2,angry,31.56,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,1,surprise,98.96,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,2,sad,74.25,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,1,surprise,98.49,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,2,sad,71.90,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,1,surprise,95.14,python.exe - DeepFace Emotion
+2025-06-06 20:59:19,2,sad,77.29,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,1,sad,75.28,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,2,surprise,98.79,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,1,surprise,96.17,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,2,happy,70.64,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,1,happy,79.58,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,2,happy,98.00,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,1,surprise,57.18,python.exe - DeepFace Emotion
+2025-06-06 20:59:20,2,happy,98.05,python.exe - DeepFace Emotion
+2025-06-06 20:59:21,1,happy,30.18,python.exe - DeepFace Emotion
+2025-06-06 20:59:21,2,happy,99.51,python.exe - DeepFace Emotion
+2025-06-06 20:59:21,1,happy,99.05,python.exe - DeepFace Emotion
+2025-06-06 20:59:21,2,happy,97.11,python.exe - DeepFace Emotion
+2025-06-06 20:59:21,1,happy,98.43,python.exe - DeepFace Emotion
+2025-06-06 20:59:21,2,happy,99.27,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,1,happy,99.90,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,2,happy,98.51,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,1,happy,99.72,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,2,happy,99.89,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,1,happy,99.88,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,2,happy,99.70,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,1,happy,90.81,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,1,neutral,72.28,python.exe - DeepFace Emotion
+2025-06-06 20:59:22,1,neutral,69.23,python.exe - DeepFace Emotion
+2025-06-06 20:59:23,1,neutral,91.26,python.exe - DeepFace Emotion
+2025-06-06 20:59:23,1,neutral,91.88,python.exe - DeepFace Emotion
+2025-06-06 20:59:23,1,neutral,95.37,python.exe - DeepFace Emotion
+2025-06-06 20:59:23,1,happy,80.53,python.exe - DeepFace Emotion
+2025-06-06 20:59:23,1,happy,78.38,python.exe - DeepFace Emotion
+2025-06-06 20:59:23,1,happy,96.55,python.exe - DeepFace Emotion
+2025-06-06 20:59:24,1,neutral,76.75,python.exe - DeepFace Emotion
+2025-06-06 20:59:24,1,neutral,73.82,python.exe - DeepFace Emotion
+2025-06-06 20:59:24,1,neutral,81.92,python.exe - DeepFace Emotion
+2025-06-06 20:59:24,1,neutral,74.51,python.exe - DeepFace Emotion
+2025-06-06 20:59:24,1,neutral,49.72,python.exe - DeepFace Emotion
+2025-06-06 20:59:25,1,neutral,40.62,python.exe - DeepFace Emotion
+2025-06-06 20:59:25,1,neutral,78.67,python.exe - DeepFace Emotion
+2025-06-06 20:59:25,1,neutral,81.87,python.exe - DeepFace Emotion
+2025-06-06 20:59:25,1,neutral,52.75,python.exe - DeepFace Emotion
+2025-06-06 20:59:25,1,neutral,71.12,python.exe - DeepFace Emotion
+2025-06-06 20:59:26,1,sad,42.40,python.exe - DeepFace Emotion
+2025-06-06 20:59:26,1,neutral,69.67,python.exe - DeepFace Emotion
+2025-06-06 20:59:26,1,neutral,83.39,python.exe - DeepFace Emotion
+2025-06-06 20:59:26,2,neutral,87.54,python.exe - DeepFace Emotion
+2025-06-06 20:59:26,1,sad,74.51,python.exe - DeepFace Emotion
+2025-06-06 20:59:26,2,neutral,86.55,python.exe - DeepFace Emotion
+2025-06-06 20:59:26,1,neutral,87.17,python.exe - DeepFace Emotion
+2025-06-06 20:59:27,1,neutral,89.96,python.exe - DeepFace Emotion
+2025-06-06 20:59:27,1,neutral,85.72,python.exe - DeepFace Emotion
+2025-06-06 20:59:27,1,neutral,42.38,python.exe - DeepFace Emotion
+2025-06-06 20:59:27,2,neutral,81.91,python.exe - DeepFace Emotion
+2025-06-06 20:59:27,1,neutral,82.63,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:27,2,neutral,81.87,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:27,1,neutral,56.65,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:28,1,happy,80.91,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:28,1,happy,87.75,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:28,1,happy,98.81,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:28,1,sad,69.35,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:28,2,happy,98.35,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:28,1,happy,98.78,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:29,1,happy,98.20,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:29,1,happy,99.88,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:29,1,happy,96.93,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:29,1,happy,86.19,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:29,1,happy,94.98,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:29,1,happy,97.07,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:30,1,happy,97.88,Code.exe - emotion_log.csv - hacaton - Visual Studio Code
+2025-06-06 20:59:30,1,neutral,69.97,explorer.exe - Task Switching
+2025-06-06 20:59:30,2,happy,93.45,explorer.exe - Task Switching
+2025-06-06 20:59:30,1,happy,58.27,explorer.exe - Task Switching
+2025-06-06 20:59:30,2,neutral,79.76,explorer.exe - Task Switching
+2025-06-06 20:59:30,1,neutral,66.06,explorer.exe - Task Switching
+2025-06-06 20:59:30,2,happy,50.80,explorer.exe - Task Switching
+2025-06-06 20:59:31,1,sad,53.09,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:31,2,surprise,37.22,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:31,1,sad,45.96,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:31,2,neutral,35.20,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:31,1,neutral,78.39,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:31,2,sad,42.25,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:31,1,neutral,77.55,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:31,2,neutral,58.21,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:32,1,neutral,70.63,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py
+2025-06-06 20:59:32,2,neutral,70.56,WindowsTerminal.exe - C:\Windows\System32\cmd.exe - python  emotion_cam.py

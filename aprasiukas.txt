@@ -1,0 +1,36 @@
+andrius- duomenu analitika, sql, powerBI. pythono pagrindų....NoSQL kinda gerai :). 
+
+Dovydai - Java ir mobilias appplikacijas. html , sql, javaspring, back-end, front-end. 
+
+Sigita - duomenu anilitika, sql, powerBI, python. Su AI programuoja, automazivimą - python. Streamlit. midjorney.
+
+==========================================================
+
+Streamlit - front-end - 
+Back-end - python - 
+Database - sql/noSql? - 
+
+
+============================================
+
+
+WebCams -  kaireje puseje - duomenu surinkėjęs.
+
+Tabus
+ Grafikai - datu/laiko pasirikimai,
+ Exportas/forma. Vardas.csv -> grafikas, data, analize.
+ 
+
+Prezentacija -> Gama naudoti prezentacijos kurimui.
+
+
+========================
+
+https://www.python.org/downloads/release/python-3110/  (check mark for Path or variables, kad paleistu su cmd ar kitu terminalu)
+pip install deepface
+pip install tf-keras
+
+
+Serveris: 46.202.189.146
+Domain: srv856949.hstgr.cloud
+Password: VcsHackaton2?
