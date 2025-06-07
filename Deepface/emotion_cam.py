@@ -129,7 +129,6 @@ while True:
                 cursor.execute("""INSERT INTO log (timestamp, face_id, emotion, confidence, foreground_app) VALUES (?, ?, ?, ?, ?) """, (timestamp, face_id, dominant, confidence, foreground_app))
                 conn.commit()
                 conn.close()
-                dbfunctions.read_last_log()
         except Exception:
             # If an error occurs (e.g., no face detected), skip this frame
             pass
