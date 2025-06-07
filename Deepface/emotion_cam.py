@@ -10,7 +10,7 @@ import win32process
 import psutil
 import sqlite3
 DB_PATH = "emotion_log.db"
-
+import dbfunctions  
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 CSV_LOG_PATH = "emotion_log.csv"  # CSV file for logging results
@@ -129,7 +129,7 @@ while True:
                 cursor.execute("""INSERT INTO log (timestamp, face_id, emotion, confidence, foreground_app) VALUES (?, ?, ?, ?, ?) """, (timestamp, face_id, dominant, confidence, foreground_app))
                 conn.commit()
                 conn.close()
-
+                dbfunctions.read_logs()
         except Exception:
             # If an error occurs (e.g., no face detected), skip this frame
             pass
