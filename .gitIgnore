@@ -1,6 +1,10 @@
 aprasiukas.txt
 emotion_log.db
+Deepface/emotion_log.db
 emotion_log.csv
 # Ignore PyInstaller build folders
 build/
 dist/
+.idea/
+Deepface/moodhunters.spec
+Deepface/__pycache__
