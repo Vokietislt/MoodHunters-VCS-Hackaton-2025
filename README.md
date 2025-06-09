@@ -46,3 +46,4 @@ This will generate a standalone executable at: ./dist/MoodHunters.exe
 
 ## Created By Team MoodHunters
 - **Team Lead:** Laimonas Vokietis
+- **Programmer:** Dovydas Baublys 
