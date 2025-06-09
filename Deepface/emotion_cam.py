@@ -40,24 +40,16 @@ if not cap.isOpened():
     print(f"Failed to open camera with index {CAMERA_INDEX}. Exiting.")
     exit(1)
 
-
-
-
 # Main loop
 while True:
     ret, frame = cap.read()
     if not ret:
         break
-
     # Resize for performance
     frame_resized = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
-#updated, catch time and use for analysis
-# Inside the processing loop
-   
+    # Inside the processing loop
     current_time = time.time()  # Get the current time in seconds
-
-
-    # Only analyze every Nth frame
+    # Analyze By seconds intervall
     if current_time - last_analyze_time > ANALYZE_INTERVAL_SECONDS: 
         last_analyze_time = current_time
         try:
@@ -75,7 +67,6 @@ while True:
 
                 if w == 0 or h == 0:
                     continue
-
                 # Adjust region coords to original frame size if needed
                 scale_x = frame.shape[1] / FRAME_WIDTH
                 scale_y = frame.shape[0] / FRAME_HEIGHT
@@ -83,10 +74,8 @@ while True:
                 y_orig = int(y * scale_y)
                 w_orig = int(w * scale_x)
                 h_orig = int(h * scale_y)
-
                 dominant = analysis["dominant_emotion"]
                 confidence = analysis["emotion"].get(dominant, 0.0)
-
                 # Draw bounding box and label on original frame
                 cv2.rectangle(frame, (x_orig, y_orig), (x_orig + w_orig, y_orig + h_orig), (0, 255, 0), 2)
                 label = f"{dominant}: {confidence:.2f}"
@@ -100,11 +89,9 @@ while True:
                     2,
                     cv2.LINE_AA,
                 )
-
-                # Log to CSV with foreground app
+                #ADD TO DATABASE
                 timestamp = datetime.now().isoformat(sep=" ", timespec="seconds")
                 foreground_app = get_foreground_app()
-                #ADD TO DATABASE
                 db.insert_log(timestamp, face_id, dominant, confidence, foreground_app)
         except Exception:
             # If an error occurs (e.g., no face detected), skip this frame
@@ -117,7 +104,7 @@ while True:
     # Press 'q' to quit
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
-
 # Clean up
+db.close()
 cap.release()
 cv2.destroyAllWindows()

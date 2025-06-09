@@ -9,7 +9,7 @@ import sqlite3
 from dbfunctions import EmotionLogDB
 procs = []
 db = EmotionLogDB()
-
+db.close()
 def cleanup(signum, frame):
     print("Cleaning up subprocesses...")
     for p in procs:

@@ -15,7 +15,7 @@ st.title("🎭 Emocijų analizė ir stebėjimas iš SQLite")
 
 # Duomenų įkėlimas
 df = db.load_data()
-
+db.close()
 # 🔴 LIVE STEBĖJIMAS
 st.subheader("🔴 Live stebėjimas (naujausi įrašai)")
 latest = df.sort_values("timestamp", ascending=False).head(5)
