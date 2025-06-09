@@ -1,3 +1,5 @@
-import dbfunctions
+from dbfunctions import EmotionLogDB  
 
-dbfunctions.read_logs()
+db = EmotionLogDB()
+db.read_logs()
+db.close()
