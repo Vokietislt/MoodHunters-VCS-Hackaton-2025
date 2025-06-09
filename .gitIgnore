@@ -6,5 +6,5 @@ emotion_log.csv
 build/
 dist/
 .idea/
-Deepface/moodhunters.spec
-Deepface/__pycache__
+MoodHunters/moodhunters.spec
+MoodHunters/__pycache__
