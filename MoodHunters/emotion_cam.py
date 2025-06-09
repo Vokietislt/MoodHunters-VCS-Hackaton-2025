@@ -54,7 +54,7 @@ while True:
         last_analyze_time = current_time
         try:
             # DeepFace returns a list if multiple faces; otherwise a dict
-            results = DeepFace.analyze(frame_resized, actions=["emotion"], enforce_detection=False)
+            results = DeepFace.analyze(frame_resized, actions=["emotion"], enforce_detection=True)
 
             # Ensure results is iterable
             if not isinstance(results, list):
