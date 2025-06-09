@@ -3,6 +3,7 @@ import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
 from dbfunctions import EmotionLogDB  # Adjust the import based on file name
+import time
 # Funkcija duomenų nuskaitymui
 # Initialize DB handler
 db = EmotionLogDB()
@@ -13,13 +14,11 @@ db = EmotionLogDB()
 st.set_page_config("Emocijų stebėsena", layout="wide")
 st.title("🎭 Emocijų analizė ir stebėjimas iš SQLite")
 
-# Duomenų įkėlimas
+placeholder = st.empty()  # Reserve space for the table
 df = db.load_data()
-db.close()
-# 🔴 LIVE STEBĖJIMAS
-st.subheader("🔴 Live stebėjimas (naujausi įrašai)")
-latest = df.sort_values("timestamp", ascending=False).head(5)
-st.dataframe(latest, use_container_width=True)
+
+
+
 
 # 📊 Analizė pagal pasirinktą laikotarpį
 st.subheader("📊 Analizė pagal pasirinktą laikotarpį")
@@ -35,7 +34,7 @@ if not df_data.empty:
     df_laikas = df_data[(df_data["time"] >= nuo_laikas) & (df_data["time"] <= iki_laikas)]
 
     st.markdown("### Atrinkti duomenys")
-    st.dataframe(df_laikas, use_container_width=True)
+    st.dataframe(df_laikas.iloc[::-1], use_container_width=True)
 
     # 🎨 Emocijų stulpelinė diagrama
     st.markdown("### Emocijų pasiskirstymas")
@@ -117,3 +116,16 @@ if not df_data.empty:
 
 else:
     st.warning("Pasirinktai datai nėra duomenų.")
+
+
+while True:
+    df = db.load_data()
+    
+    # Example modification: filter, sort, etc.
+    latest = df.sort_values("timestamp", ascending=False).head(5)
+    
+    with placeholder.container():
+        st.subheader("🔴 Live stebėjimas (naujausi įrašai)")
+        st.dataframe(latest, use_container_width=True)
+    
+    time.sleep(1)
