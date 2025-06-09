@@ -43,3 +43,6 @@ python MoodHunters.py
 Run the provided batch file: build.bat
 
 This will generate a standalone executable at: ./dist/MoodHunters.exe
+
+## Created By Team MoodHunters
+- **Team Lead:** Laimonas Vokietis
