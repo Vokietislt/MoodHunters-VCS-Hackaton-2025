@@ -31,3 +31,14 @@ pip install psutil
 pip install sqlite3
 pip install streamlit
 pip install matplotlib
+```
+## 🧪 Running the App
+You can run the application in two ways:
+
+### ✅ Option 1: Run from Source
+```bash
+python MoodHunters.py
+```
+### 🛠️ Option 2: Build Executable
+Run the provided batch file: build.bat
+This will generate a standalone executable at: ./dist/MoodHunters.exe
