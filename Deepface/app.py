@@ -2,23 +2,19 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
-
+from dbfunctions import EmotionLogDB  # Adjust the import based on file name
 # Funkcija duomenų nuskaitymui
-def load_data():
-    conn = sqlite3.connect("emotion_log.db")
-    query = "SELECT * FROM log"
-    df = pd.read_sql_query(query, conn)
-    conn.close()
-    df['timestamp'] = pd.to_datetime(df['timestamp'])
-    df['date'] = df['timestamp'].dt.date
-    df['time'] = df['timestamp'].dt.time
-    return df
+# Initialize DB handler
+db = EmotionLogDB()
+
+# Load data using class method
+
 
 st.set_page_config("Emocijų stebėsena", layout="wide")
 st.title("🎭 Emocijų analizė ir stebėjimas iš SQLite")
 
 # Duomenų įkėlimas
-df = load_data()
+df = db.load_data()
 
 # 🔴 LIVE STEBĖJIMAS
 st.subheader("🔴 Live stebėjimas (naujausi įrašai)")

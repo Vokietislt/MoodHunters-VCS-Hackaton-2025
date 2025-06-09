@@ -6,10 +6,9 @@ import signal
 import psutil
 import traceback
 import sqlite3
-
+from dbfunctions import EmotionLogDB
 procs = []
-
-DB_PATH = "emotion_log.db"
+db = EmotionLogDB()
 
 def cleanup(signum, frame):
     print("Cleaning up subprocesses...")
@@ -55,20 +54,6 @@ def find_running_process(cmd_substring):
     return None
 
 try:
-    if not os.path.exists(DB_PATH):
-        conn = sqlite3.connect(DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("""
-            CREATE TABLE log (
-                timestamp TEXT,
-                face_id INTEGER,
-                emotion TEXT,
-                confidence REAL,
-                foreground_app TEXT
-            )
-        """)
-        conn.commit()
-        conn.close()
     print("Starting subprocesses...")
 
     # Get paths inside bundle or normal path
